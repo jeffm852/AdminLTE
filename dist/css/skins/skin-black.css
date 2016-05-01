@@ -25,7 +25,8 @@
 .skin-black .main-header > .navbar .nav > li > a:focus,
 .skin-black .main-header > .navbar .nav .open > a,
 .skin-black .main-header > .navbar .nav .open > a:hover,
-.skin-black .main-header > .navbar .nav .open > a:focus {
+.skin-black .main-header > .navbar .nav .open > a:focus,
+.skin-black .main-header > .navbar .nav > .active > a {
   background: #ffffff;
   color: #999999;
 }
@@ -150,4 +151,11 @@
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   border-bottom-left-radius: 0;
+}
+.skin-black .pace .pace-progress {
+  background: #222;
+}
+.skin-black .pace .pace-activity {
+  border-top-color: #222;
+  border-left-color: #222;
 }
